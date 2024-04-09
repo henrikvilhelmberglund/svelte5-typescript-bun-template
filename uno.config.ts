@@ -10,18 +10,19 @@ export default defineConfig({
 	rules: [],
 	shortcuts: [],
 	safelist: [
-		...Array.from({ length: 26 }, (_, i) => String.fromCharCode("a".charCodeAt(0) + i)).map(
-			(char) => `font-${char}`
-		),
+		// ...Array.from({ length: 26 }, (_, i) => String.fromCharCode("a".charCodeAt(0) + i)).map(
+		// 	(char) => `font-${char}`
+		// ),
 		...createSafeList(),
-		`font-thin font-extralight font-light font-normal font-medium font-semibold font-bold font-extrabold font-black
-        btn-primary btn-secondary`,
+		// `font-thin font-extralight font-light font-normal font-medium font-semibold font-bold font-extrabold font-black
+    //     btn-primary btn-secondary`,
 	],
 	theme: {},
 	presets: [
 		presetUno({ dark: "class" }),
 		presetForms(),
 		// fix types later
+    // @ts-ignore
 		presetTheme({
 			theme: themes
 		}),
