@@ -13,7 +13,7 @@
 <button
 	{...rest}
 	{disabled}
-	class="m-1 rounded-lg border border-white p-2 text-white hover:border-blue-200 active:bg-blue-900 disabled:cursor-not-allowed">
+	class="m-1 rounded-lg border border-primary-500 p-2 text-black dark:text-white hover:border-white active:bg-primary-300 disabled:cursor-not-allowed">
 	{#if children}
 		{@render children()}
 	{:else}
