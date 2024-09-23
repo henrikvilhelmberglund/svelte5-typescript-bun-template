@@ -10,7 +10,7 @@
     "@sveltejs/kit": "^2.5.28",
     "@sveltejs/vite-plugin-svelte": "^3.1.2",
     "@types/bun": "latest",
-    "@unocss/svelte-scoped": "^0.59.4",
+    "@unocss/svelte-scoped": "^0.62.4",
     "commit-and-tag-version": "^12.4.4",
     "prettier": "^3.3.3",
     "prettier-plugin-svelte": "^3.2.6",
